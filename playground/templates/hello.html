@@ -1,1 +1,5 @@
-<h1> This is a rendered template in playground app name of the template is hello.html</h1>
+{%if name%}
+<h1> This is a rendered template in playground app name of the template is hello.html  {{name}}</h1>
+{% else %}
+<h1>Hello world</h1>
+{% endif %}
